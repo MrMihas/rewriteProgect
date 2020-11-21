@@ -8,9 +8,8 @@ import {BrowserRouter} from "react-router-dom";
 import state from './redux/state';
 
     ReactDOM.render( <BrowserRouter>
-            <App state={state}/>
-        </BrowserRouter>
-           , document.getElementById('root'));
+                        <App state={state} />
+                    </BrowserRouter>, document.getElementById('root'));
 
 
 serviceWorker.unregister();

@@ -2,22 +2,28 @@ import React from "react";
 import n from "./Navbar.module.css";
 import {NavLink} from "react-router-dom";
 
-const Navbar = () =>{
-    return(
-        <nav className={n.aside}>
-            <ul>
+import Friends from "./../Sidebar/Friends.jsx";
+
+
+const Navbar = (props) =>{
+
+
+ const newMenu = props.menu.map(item => {
+            return (
                 <li className={n.AppLink}>
-                    <NavLink exact to="/profile" activeClassName={n.active}> Profile </NavLink>
-                {/* exact -- привязка к точному адрессу   */}
+                    <NavLink to={item.link} 
+                             activeClassName={n.active}>{item.item}</NavLink>
                 </li>
-                <li className={n.AppLink}>
-                    <NavLink to="/dialogs" activeClassName={n.active}>Messages</NavLink>
-                </li>
-                <li className={n.AppLink}>News</li>
-                <li className={n.AppLink}>Settings</li>
-            </ul>
-        </nav>
-    )
+            )
+        })
+        return (
+            <nav  className={n.aside}>
+                <ul>
+                    {newMenu}
+                </ul>
+                <Friends friends={props.friends}/>
+            </nav>
+        )
 }
 
 export default Navbar;
