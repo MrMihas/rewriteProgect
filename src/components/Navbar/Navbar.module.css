@@ -1,0 +1,19 @@
+.aside{
+    grid-area: aside;
+    background: rgba(219,23,223,0.4);
+}
+.AppLink {
+    color:#fff ;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.AppLink:hover{
+    color: aqua;
+}
+.AppLink a{
+    text-decoration: none;
+}
+.AppLink a.active{
+    color: greenyellow;
+}

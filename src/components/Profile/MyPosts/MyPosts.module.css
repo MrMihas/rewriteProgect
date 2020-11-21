@@ -1,0 +1,26 @@
+.posts{
+    background-color: brown;
+    padding: 20px;
+}
+
+.item{
+    color: azure;
+}
+
+
+.item{
+    padding: 30px 0;
+}
+.item img{
+    width: 60px;
+    height: 60px;
+}
+
+.item{
+    padding-left: 40px;
+}
+
+.item h4{
+    padding: 0;
+    margin: 0;
+}

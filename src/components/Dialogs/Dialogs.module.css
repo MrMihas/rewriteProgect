@@ -1,0 +1,29 @@
+.dialogs{
+display: grid;
+    grid-template-columns: 2fr 10fr ;
+    padding: 5px 20px;
+}
+
+.dialogsItems{
+
+}
+
+.dialog{
+    padding: 10px;
+}
+
+.active{
+    text-decoration: underline;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.messages__item{
+
+}
+
+.message{
+    padding: 0 10px;
+}
+

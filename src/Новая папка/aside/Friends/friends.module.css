@@ -1,0 +1,35 @@
+.friends__block{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.friends__block_user{
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.friends__block img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.friends__block_user span{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    line-height: 0.1;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 150px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.friends__block_user:hover span{
+    opacity: 1;
+    top: -5px;
+}
