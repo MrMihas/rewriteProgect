@@ -1,4 +1,8 @@
+const ADD_POST = 'ADD-POST';
+const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
+
 let store = {
+
     _state: {
 
         profilePage: {
@@ -65,13 +69,18 @@ let store = {
         },
 
     },
-    getState() {
-        return this._state;
-    },
     _callSubscriber() {
 
     },
-    addPost() {
+
+    getState() {
+        return this._state;
+    },
+    subscribe(observer) {
+        this._callSubscriber = observer;
+    },
+
+    _addPost(){
         let newPost = {
             id: 5,
             message: this._state.profilePage.newPostText,
@@ -85,10 +94,19 @@ let store = {
         this._state.profilePage.newPostText = newText;
         this._callSubscriber(this._state);
     },
-    subscribe(observer) {
-        this._callSubscriber = observer;
-    }
+
+   dispatch(action){
+        if(action.type === ADD_POST){
+           this._addPost(); //можна ссилатись на приватну ф-цію
+        } else if(action.type === UPDATE_NEW_POST_TEXT){
+            this._state.profilePage.newPostText = action.newText;
+            this._callSubscriber(this._state);  // а можна і так
+        }
+   }
 }
+export const addPostActionCreator = () => ({type: ADD_POST}); //позбавляємось return
+
+export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text})
 
 
 export default store;
