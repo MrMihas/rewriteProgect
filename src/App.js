@@ -20,7 +20,9 @@ const App = (props) => {
                     () => <Profile profilePage={props.state.profilePage}
                                    dispatch={props.dispatch}/>}/>
                 <Route path="/dialogs" render={
-                    () => <Dialogs state={props.state.dialogsPage}/>}/>
+                    () => <Dialogs
+                          store={props.store}
+                    />}/>
 
                 {/* render faster than component*/}
             </div>
