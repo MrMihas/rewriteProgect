@@ -1,8 +1,13 @@
-const ADD_POST = 'ADD-POST';
-const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
+// const ADD_POST = 'ADD-POST';
+// const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 
-const UPDATE_NEW_MESSAGE_BODY = "UPDATE-NEW-MESSAGE-BODY";
-const SEND_MESSAGE = "SEND-MESSAGE";
+// const UPDATE_NEW_MESSAGE_BODY = "UPDATE-NEW-MESSAGE-BODY";
+// const SEND_MESSAGE = "SEND-MESSAGE";
+import profileReducer from "./profile-reducer";
+import dialogsReducer from "./dialogs-reducer";
+import {sidebarsReducer} from "./sidebar-reducer";
+
+
 
 let store = {
 
@@ -34,7 +39,7 @@ let store = {
                 {id: 4, message: 'Dasasdasdasdasdha'},
             ],
 
-            newMessageBody: "Злови журавля"
+            newMessageBody: ""
 
 
         },
@@ -102,34 +107,20 @@ let store = {
     },
 
    dispatch(action){
-        if(action.type === ADD_POST){
-           this._addPost(); //можна ссилатись на приватну ф-цію
-        } else if(action.type === UPDATE_NEW_POST_TEXT){
-            this._state.profilePage.newPostText = action.newText;
-            this._callSubscriber(this._state);  // а можна і так
-        } else if( action.type === UPDATE_NEW_MESSAGE_BODY){
-            this._state.dialogsPage.newMessageBody = action.body;
-            this._callSubscriber(this._state);
-        } else if(action.type === SEND_MESSAGE){
-            let body = this._state.dialogsPage.newMessageBody;
-            let newMessage = {
-                id: 10,
-                message: body,
-            };
-            this._state.dialogsPage.messages.push(newMessage);
-            this._state.dialogsPage.newMessageBody = "";
-
+    this._state.profilePage = profileReducer(this._state.profilePage, action);
+    this._state.dialogsPage = dialogsReducer(this._state.dialogPage, action);
+    this._state.sidebar = sidebarsReducer(this._state.sidebar, action);
             this._callSubscriber(this._state);
         }
    }
-}
-export const addPostActionCreator = () => ({type: ADD_POST}); //позбавляємось return
 
-export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
+// export const addPostActionCreator = () => ({type: ADD_POST}); //позбавляємось return
 
-export const sendMessageCreator = () => ({type: SEND_MESSAGE}); //позбавляємось return
+// export const updateNewPostTextActionCreator = (text) => ({type: UPDATE_NEW_POST_TEXT, newText: text});
 
-export const updateNewMessageBodyCreator = (body) => ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
+// export const sendMessageCreator = () => ({type: SEND_MESSAGE}); //позбавляємось return
+
+// export const updateNewMessageBodyCreator = (body) => ({type: UPDATE_NEW_MESSAGE_BODY, body: body});
 
 
 export default store;
