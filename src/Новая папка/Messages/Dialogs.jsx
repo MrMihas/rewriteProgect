@@ -1,4 +1,4 @@
-/*
+
 import React from "react";
 import s from "./Dialogs.module.css";
 import UserItem from "./Dialog/UserItem";
@@ -41,4 +41,4 @@ const Dialogs = (props) => {
 }
 
 export default Dialogs;
-*/
+
