@@ -4,11 +4,11 @@ import profileReducer from "./profile-reducer";
 import dialogsReducer from "./dialogs-reducer";
 
 
+
 let reducers = combineReducers({
     sidebar: sidebarsReducer,
     profilePage: profileReducer,
-
-    dialogPage:dialogsReducer
+    dialogsPage: dialogsReducer
 });
 
 

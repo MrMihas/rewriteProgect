@@ -3,7 +3,7 @@ const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 
 let initialState = {
     posts: [],
-    newPostText: "Злови журавля"
+    newPostText: "Зловиnb журавля"
 };
 
 const profileReducer = (state = initialState, action) => {

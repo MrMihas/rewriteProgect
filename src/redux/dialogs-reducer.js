@@ -1,50 +1,45 @@
 const UPDATE_NEW_TEXT_BODY = 'UPDATE-NEW-TEXT-BODY';
 const SEND_MESSAGE = 'SEND-MESSAGE';
+//
+// let initialState = {
+//     messages: [
+//         {
+//             id: 1,
+//             message: "hello pillow"
+//         },
+//     ],
+//     dialogs: [
+//         {id: 1, name: 'Mishka'},
+//     ],
+//     newMessageBody: ""
+// }
 
 let initialState = {
     messages: [
         {
             id: 1,
-            message: "hello pollow"
+            message: 'call my name',
         },
-        {
-            id: 2,
-            message: "hello plate"
-        },
-        {
-            id: 3,
-            message: "hello spoon"
-        },
-        {
-            id: 4,
-            message: "iron ass"
-        },
-        {
-            id: 6,
-            message: "how are you?"
-        }
-
     ],
     dialogs: [
-        {id: 1, name: 'Mishka'},
-        {id: 2, name: 'Sasha'},
-        {id: 3, name: 'Tanya'},
-        {id: 4, name: 'Mishelle'},
-        {id: 5, name: 'Olya'}
+        {
+            id: 1,
+            name: "Jack",
+        },
     ],
-    newMessageText: ""
+    newMessageBody: ""
+
 }
 
 const dialogsReducer = (state = initialState, action) => {
-
     switch (action.type) {
 
         case UPDATE_NEW_TEXT_BODY :
-            state.newMessageText = action.body;
+            state.newMessageBody = action.body;
             return state;
         case SEND_MESSAGE:
-            let body = state.newMessageText;
-            state.newMessageText = "";
+            let body = state.newMessageBody;
+            state.newMessageBody = "";
             state.messages.push({id: 7, message: body});
             return state;
 
