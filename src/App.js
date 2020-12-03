@@ -3,7 +3,7 @@ import {Route} from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header/Header.jsx";
-import Navbar from "./components/Navbar/Navbar.jsx";
+import Navbar from "./components/Sidebar/Navbar.jsx";
 import Profile from "./components/Profile/Profile.jsx";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
@@ -12,14 +12,13 @@ const App = (props) => {
     return (
         <div className="app-wrapper">
             <Header/>
-            <Navbar friends={props.state.sidebar.friends} menu={props.state.sidebar.menuItem}/>
+            <Navbar />
             <div className="app-wrapper-content">
 
                 <Route path="/profile" render={
-                    () => <Profile store={props.store}/>}/>
+                    () => <Profile />}/>
                 <Route path="/dialogs" render={
-                    () => <DialogsContainer store={props.store}
-                    />}/>
+                    () => <DialogsContainer />}/>
 
                 {/* render faster than component*/}
             </div>
