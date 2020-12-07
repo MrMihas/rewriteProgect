@@ -2,47 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StoreContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreContext.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Navbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Friends/Friends.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Friends.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Friends/Friends.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Friends/Friends.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Friends/Friends.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/Messages/Dialog/UserItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/Messages/Dialogs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/Messages/Dialogs.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/Messages/Message/MessageItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/aside/Aside.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/aside/Aside.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/aside/Friends/Friends.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/aside/Friends/friends.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Navbar/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Navbar/Navbar.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/AboutUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/MainInfo/MainInfoContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/MyPosts/Post/Post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/MyPosts/Post/Post.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/MyPosts/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/Profile.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/Profile.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/components/Profile/aboutUser.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/redux/dialogs-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/redux/profile-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/redux/redux-store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/redux/sidebar-reducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Новая папка/redux/store.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,6 +125,7 @@
       <workItem from="1606813331198" duration="1385000" />
       <workItem from="1606918499744" duration="5258000" />
       <workItem from="1606987155076" duration="4638000" />
+      <workItem from="1607368830635" duration="2819000" />
     </task>
     <servers />
   </component>
@@ -175,5 +144,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
