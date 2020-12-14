@@ -6,15 +6,15 @@ import {connect} from "react-redux";
 
 // const DialogsContainer = () => {
 
-    // let state = props.store.getState().dialogsPage;
-    //
-    // let onSendMessageClick = () => {
-    //     props.store.dispatch(sendMessageCreator());
-    // }
-    //
-    // let onNewMessageChange = (body) => {
-    //     props.store.dispatch(updateNewMessageBodyCreator(body));
-    // }
+// let state = props.store.getState().dialogsPage;
+//
+// let onSendMessageClick = () => {
+//     props.store.dispatch(sendMessageCreator());
+// }
+//
+// let onNewMessageChange = (body) => {
+//     props.store.dispatch(updateNewMessageBodyCreator(body));
+// }
 
 //     return (
 //         <StoreContext.Consumer>
@@ -41,16 +41,21 @@ import {connect} from "react-redux";
 //     )
 // }
 
-let mapStateToProps =(state)=>{
-    return{
+let mapStateToProps = (state) => {
+    return {
         dialogsPage: state.dialogsPage,
     }
 };
 
-let mapDispatchToProps = (dispatch)=>{
-    return{
-        updateNewMessageBody: ()=>{dispatch(sendMessageCreator())},
-        sendMessage: (body)=>{dispatch(updateNewMessageBodyCreator(body))},
+let mapDispatchToProps = (dispatch) => {
+    return {
+
+        sendMessage: () => {
+            dispatch(sendMessageCreator())
+        },
+        updateNewMessageBody: (body) => {
+            dispatch(updateNewMessageBodyCreator(body))
+        },
     }
 };
 
