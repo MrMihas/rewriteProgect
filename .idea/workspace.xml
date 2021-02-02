@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sidebar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sidebar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,18 +47,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar\Navbar" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar\Friends" />
       <recent name="C:\Users\Professional\Desktop\projects\React\project\public" />
-      <recent name="C:\Users\Professional\Desktop\projects\React\project\src\components\Profile" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Users" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Dialogs" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Profile\MyPosts" />
       <recent name="C:\Users\Professional\Desktop\projects\React\project\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\Professional\Desktop\projects\React\project\src\components\Dialogs" />
-      <recent name="C:\Users\Professional\Desktop\projects\React\project\src\components\Profile\MyPosts\Post" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,7 +126,13 @@
       <workItem from="1607368830635" duration="3613000" />
       <workItem from="1607610343157" duration="35000" />
       <workItem from="1607627134230" duration="3617000" />
-      <workItem from="1607967541484" duration="4387000" />
+      <workItem from="1607967541484" duration="5352000" />
+      <workItem from="1608575927309" duration="38000" />
+      <workItem from="1608583024967" duration="5099000" />
+      <workItem from="1610816473890" duration="27000" />
+      <workItem from="1611221075531" duration="168000" />
+      <workItem from="1612208082734" duration="1966000" />
+      <workItem from="1612274774824" duration="1367000" />
     </task>
     <servers />
   </component>
@@ -150,6 +158,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,6 +6,7 @@ import Header from "./components/Header/Header.jsx";
 import Navbar from "./components/Sidebar/Navbar.jsx";
 import Profile from "./components/Profile/Profile.jsx";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
+import UsersContainer from "./components/Users/usersContainer";
 
 
 const App = (props) => {
@@ -19,6 +20,8 @@ const App = (props) => {
                     () => <Profile />}/>
                 <Route path="/dialogs" render={
                     () => <DialogsContainer />}/>
+                <Route path="/users" render={
+                    () => <UsersContainer /> }/>
 
                 {/* render faster than component*/}
             </div>

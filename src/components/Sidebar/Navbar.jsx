@@ -16,6 +16,10 @@ let menuItem = [
     {
         item: "Settings",
         link: "/settings"
+    },
+    {
+        item: "Users",
+        link: "/users"
     }
 ];
   let friends = [
