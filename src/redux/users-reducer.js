@@ -3,41 +3,7 @@ const UNFOLLOW = 'UNFOLLOW';
 const SET_USERS = 'SET_USERS';
 
 let initialState = {
-    users: [
-        {
-            id: 1,
-            photoUrl: "https://avatarko.ru/img/kartinka/1/avatarko_anonim.jpg",
-            followed: false,
-            fullName: "Peter",
-            status: "Hero",
-            location: {
-                city: 'Rome',
-                country: 'Italy'
-            }
-        },
-        {
-            id: 2,
-            photoUrl: "https://avatarko.ru/img/kartinka/1/avatarko_anonim.jpg",
-            followed: true,
-            fullName: "Lyke",
-            status: "Hero",
-            location: {
-                city: 'Rome',
-                country: 'Italy'
-            }
-        },
-        {
-            id: 3,
-            photoUrl: "https://avatarko.ru/img/kartinka/1/avatarko_anonim.jpg",
-            followed: true,
-            fullName: "Joke",
-            status: "monster",
-            location: {
-                city: 'Romania',
-                country: 'Romania'
-            }
-        },
-    ]
+    users: [    ]
 };
 
 const usersReducer = (state = initialState, action) => {
