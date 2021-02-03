@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/trash/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,7 @@
       <workItem from="1611221075531" duration="168000" />
       <workItem from="1612208082734" duration="1966000" />
       <workItem from="1612274774824" duration="5636000" />
-      <workItem from="1612360529832" duration="2961000" />
+      <workItem from="1612360529832" duration="4298000" />
     </task>
     <servers />
   </component>
