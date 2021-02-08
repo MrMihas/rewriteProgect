@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/User.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
@@ -22,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -133,7 +133,9 @@
       <workItem from="1612274774824" duration="5636000" />
       <workItem from="1612360529832" duration="4437000" />
       <workItem from="1612467777004" duration="4037000" />
-      <workItem from="1612557594693" duration="3217000" />
+      <workItem from="1612557594693" duration="3489000" />
+      <workItem from="1612816621361" duration="1035000" />
+      <workItem from="1612818010052" duration="2312000" />
     </task>
     <servers />
   </component>
