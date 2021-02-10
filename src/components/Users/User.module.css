@@ -1,5 +1,12 @@
 .selectPage{
     font-weight: 900;
-    font-size: 22px;
-    padding: 1px 5px;
+}
+.dFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dFlex span{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
 }

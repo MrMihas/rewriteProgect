@@ -12,7 +12,7 @@ let Users = (props) => {
     }
     return <div>
 
-                <div>
+                <div className={styles.dFlex}>
                     {pages.map(p => {
                             return <span className={props.currentPage === p && styles.selectPage}
                                          onClick={(e) => {

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersAPIComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/User.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/User.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
@@ -22,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,19 +47,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Projects\react-app\rewriteProgect\src\trash" />
-      <recent name="E:\Projects\react-app\rewriteProgect\src\assets\images" />
-      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
-      <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar" />
-      <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar\Navbar" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Projects\react-app\rewriteProgect\src\components\Users" />
       <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Dialogs" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Profile\MyPosts" />
       <recent name="C:\Users\Professional\Desktop\projects\React\project\src\components\Profile\ProfileInfo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\react-app\rewriteProgect\src\assets\images" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\trash" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
+      <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar" />
+      <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar\Navbar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,7 +138,10 @@
       <workItem from="1612467777004" duration="4037000" />
       <workItem from="1612557594693" duration="3489000" />
       <workItem from="1612816621361" duration="1035000" />
-      <workItem from="1612818010052" duration="2312000" />
+      <workItem from="1612818010052" duration="2520000" />
+      <workItem from="1612904516622" duration="1385000" />
+      <workItem from="1612987748087" duration="580000" />
+      <workItem from="1612989702622" duration="1302000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,9 @@
+.bgWhite{
+    display: inline;
+    position: absolute;
+}
+
+.sizeImage{
+    width: 40px;
+    height: 40px;
+}
