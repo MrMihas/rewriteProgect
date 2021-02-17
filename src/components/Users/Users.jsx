@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./User.module.css";
 import icon from "../../assets/images/empty.png";
+import {NavLink} from "react-router-dom";
 
 let Users = (props) => {
 
@@ -29,7 +30,9 @@ let Users = (props) => {
 
                   <span>
                       <div>
-                          <img width="65px" src={u.photos.small !== null ? u.photos.small : icon}/>
+                         <NavLink to={'/profile/'+u.id}>
+                              <img width="65px" src={u.photos.small !== null ? u.photos.small : icon}/>
+                         </NavLink>
                       </div>
                       <div>
                       </div>
