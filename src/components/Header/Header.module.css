@@ -1,4 +1,21 @@
 .header{
     grid-area: header;
     background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginBlock{
+    float: right;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+
+.loginBlock a{
+    color: #282c34;
+    text-decoration: none;
 }

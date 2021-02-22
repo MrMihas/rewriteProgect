@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/redux-store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/redux-store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,19 +46,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Header" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Profile" />
+      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Users" />
+      <recent name="C:\Users\Professional\Desktop\project\src\components\Dialogs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Projects\react-app\rewriteProgect\src\assets\images" />
       <recent name="E:\Projects\react-app\rewriteProgect\src\trash" />
       <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar" />
       <recent name="C:\Users\Professional\Desktop\project\src\components\Sidebar\Navbar" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Profile" />
-      <recent name="E:\Projects\react-app\rewriteProgect\src\components\Users" />
-      <recent name="E:\Projects\react-app\rewriteProgect\src\redux" />
-      <recent name="C:\Users\Professional\Desktop\project\src\components\Dialogs" />
-      <recent name="C:\Users\Professional\Desktop\project\src\components\Profile\MyPosts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -139,7 +143,9 @@
       <workItem from="1612989702622" duration="2140000" />
       <workItem from="1613067686492" duration="588000" />
       <workItem from="1613587613644" duration="6100000" />
-      <workItem from="1613677907932" duration="2036000" />
+      <workItem from="1613677907932" duration="2484000" />
+      <workItem from="1613763432592" duration="1177000" />
+      <workItem from="1614025572152" duration="3070000" />
     </task>
     <servers />
   </component>
@@ -175,6 +181,11 @@
           <url>file://$PROJECT_DIR$/src/components/Users/usersContainer.jsx</url>
           <line>13</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
