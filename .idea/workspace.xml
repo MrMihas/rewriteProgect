@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="13a03dbd-ff8a-4138-b6be-f5b450781ea8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/usersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/users-reducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +144,8 @@
       <workItem from="1613763432592" duration="1177000" />
       <workItem from="1614025572152" duration="3422000" />
       <workItem from="1616618957083" duration="3920000" />
-      <workItem from="1616701559161" duration="3089000" />
+      <workItem from="1616701559161" duration="3369000" />
+      <workItem from="1616875527771" duration="1775000" />
     </task>
     <servers />
   </component>
@@ -177,7 +179,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Users/usersContainer.jsx</url>
-          <line>14</line>
+          <line>22</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
